@@ -1,0 +1,1457 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #8B0000;
+    min-height: 70px;
+    padding: 8px 0;
+}
+
+#logo-img {
+    background: linear-gradient(135deg, #557c3e, #4a6b35);
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin: 8px 15px 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+
+#logo-img::before {
+    content: "九龍";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial Unicode MS', 'Microsoft YaHei', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 3px;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    line-height: 1.2;
+    order: 2;
+}
+
+.navbar-brand p span {
+    vertical-align: middle;
+}
+
+.star-k {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-right: 4px;
+    position: relative;
+}
+
+.star-k::before {
+    content: "★";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 10px;
+}
+
+#nav-list {
+    margin-top: 15px;
+}
+
+#nav-list a {
+    color: #8B0000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+    color: #61122f;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#phone {
+    margin-top: 5px;
+    text-align: right;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.9em;
+    line-height: 1.2;
+}
+
+#phone div {      /* we deliver */
+    color: #000;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 0.7em;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+    
+}   
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/* footer */
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+
+#hours, #adress {
+    font-size: 2;
+}
+
+#hours > span, #adress > span {
+    font-size: 1.3em;
+}
+#adress p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8em;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+
+/*  END FOOTER   */
+
+/* Home Page Styles */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/restaurant-logo-large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.hero-buttons .btn {
+    margin: 0 10px;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.section-title {
+    color: #557c3e;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.section-subtitle {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.featured-dish {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-dish:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.dish-image {
+    height: 200px;
+    overflow: hidden;
+}
+
+.dish-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish-content {
+    padding: 20px;
+}
+
+.dish-content h3 {
+    color: #557c3e;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dish-content p {
+    color: #666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.dish-price {
+    color: #f6b319;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.highlights-section {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.highlight-item {
+    text-align: center;
+    padding: 30px 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.highlight-item:hover {
+    transform: translateY(-5px);
+}
+
+.highlight-icon {
+    font-size: 3em;
+    color: #f6b319;
+    margin-bottom: 20px;
+}
+
+.highlight-item h4 {
+    color: #557c3e;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.highlight-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.special-offers {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.offer-card {
+    background: linear-gradient(135deg, #f6b319, #e6a319);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.offer-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.offer-card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.offer-highlight {
+    background: rgba(255,255,255,0.2);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.quick-links {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.quick-link-item {
+    display: block;
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+}
+
+.quick-link-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.quick-link-icon {
+    font-size: 3em;
+    color: #f6b319;
+    margin-bottom: 20px;
+}
+
+.quick-link-item h4 {
+    color: #557c3e;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.quick-link-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments for home page */
+@media (max-width: 767px) {
+    .hero-title {
+        font-size: 2em;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2em;
+    }
+    
+    .hero-buttons .btn {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+    
+    .section-title {
+        font-size: 2em;
+    }
+    
+    .highlight-item, .offer-card, .quick-link-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-title {
+        font-size: 2.5em;
+    }
+    
+    .section-title {
+        font-size: 2.2em;
+    }
+}
+
+#main-content {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#home-tiles {
+    padding: 20px 15px;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/jumbotron-1200.png');
+    height: 675px;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+}
+
+/* Device size indicator */
+.device-indicator {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+}
+
+/* Mobile call button */
+#call-btn {
+    display: none;
+}
+
+#xs-deliver {
+    display: none;
+}
+
+/* Menu tiles container - ensure it's below jumbotron */
+.tiles-container {
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#menu-tile,
+#specials-tile,
+#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+}
+#menu-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+    background: url('images/menu-tile.jpg') no-repeat;
+    background-position: center;
+}
+#specials-tile {
+    background: url('images/Specials-tile.jpg') no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+
+
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+#map-tile {
+    position: relative;
+}
+#map-tile iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#map-tile span {
+    z-index: 2;
+}
+
+/****************Extra Large devices (1200px and up)****************/
+@media (min-width: 1200px) {
+    .jumbotron {
+        height: 675px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.4em;
+    }
+
+    #logo-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .device-indicator::before {
+        content: "Desktop (1200px+)";
+    }
+}
+
+/****************Large devices (992px to 1199px) - Desktop/Laptop****************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img {
+        width: 75px;
+        height: 75px;
+        margin: 6px 12px 6px 0;
+        font-size: 16px;
+    }
+
+    .navbar-brand {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.3em;
+    }
+
+    .navbar-brand p {
+        font-size: 0.6em;
+        margin-top: 0;
+    }
+
+    .jumbotron {
+        height: 558px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/jumbotron-992.png');
+    }
+
+    .device-indicator::before {
+        content: "Laptop (992px-1199px)";
+    }
+}
+
+/****************Medium devices (768px to 991px) - Tablets****************/
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo-img {
+        width: 65px;
+        height: 65px;
+        margin: 6px 10px 6px 0;
+        font-size: 14px;
+    }
+
+    .navbar-brand {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.2em;
+    }
+
+    .navbar-brand p {
+        font-size: 0.55em;
+        margin-top: 0;
+    }
+
+    #nav-list {
+        margin-top: 8px;
+    }
+
+    #nav-list a {
+        padding: 8px 12px;
+        font-size: 0.85em;
+    }
+
+    #nav-list a span {
+        font-size: 1.4em;
+    }
+
+    #phone {
+        margin-top: 2px;
+    }
+
+    #phone a {
+        font-size: 0.8em;
+    }
+
+    #phone div {
+        font-size: 0.7em;
+    }
+
+    .jumbotron {
+        height: 432px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/jumbotron-768.png');
+    }
+
+    .device-indicator::before {
+        content: "Tablet (768px-991px)";
+    }
+    #menu-tile, #specials-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+}
+
+/****************Small devices (481px to 767px) - Large Mobile****************/
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 50px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 0;
+        font-size: 1.1em;
+        margin-bottom: 3px;
+    }
+
+    .navbar-brand p {
+        font-size: 0.5em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #logo-img {
+        width: 45px;
+        height: 45px;
+        font-size: 8px;
+        margin: 3px 8px 3px 0;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #call-btn {
+        display: block;
+    }
+
+    #call-btn>a {
+        font-size: 1.3em;
+        display: block;
+        margin: 0 15px;
+        padding: 8px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #xs-deliver {
+        display: block;
+        margin-top: 5px;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .jumbotron {
+        margin-top: 20px;
+        padding: 0;
+        background-image: none;
+        height: auto;
+        background: #8B4513;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jumbotron::before {
+        content: "Restaurant Interior Image";
+        color: white;
+        font-size: 18px;
+    }
+
+    .device-indicator::before {
+        content: "Large Mobile (481px-767px)";
+    }
+    .menu-item-photo {
+        margin: auto;
+    }
+    .menu-item-tile .menu-item-price {
+        text-align: center !important;
+    } 
+    .menu-item-description {
+        text-align: center;
+    }
+}
+
+/****************Extra small devices (up to 480px) - Mobile phones****************/
+@media (max-width: 480px) {
+    .navbar-brand {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: 45px;
+    }
+
+    .navbar-brand h1 {
+        padding-top: 0;
+        font-size: 1em;
+        margin-bottom: 2px;
+    }
+
+    .navbar-brand p {
+        font-size: 0.45em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #logo-img {
+        width: 40px;
+        height: 40px;
+        font-size: 7px;
+        margin: 2px 6px 2px 0;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    .navbar-toggle {
+        margin-top: -20px;
+        margin-right: 5px;
+    }
+
+    #call-btn {
+        display: block;
+    }
+
+    #call-btn>a {
+        font-size: 1.2em;
+        display: block;
+        margin: 0 10px;
+        padding: 6px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #xs-deliver {
+        display: block;
+        margin-top: 3px;
+        font-size: 0.65em;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+ 
+    /*    End Header */
+    /* Footer */
+    .panel-footer section {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+        margin-bottom: 0;
+    }
+    .panel-footer section hr {
+        width: 50%;
+    }
+
+    /* End Footer here */
+
+    /* Home Page */
+    .jumbotron {
+        margin-top: 15px;
+        padding: 0;
+        background-image: none;
+        height: auto;
+        background: #8B4513;
+        min-height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jumbotron::before {
+        content: "Restaurant Interior Image";
+        color: white;
+        font-size: 14px;
+    }
+
+    .device-indicator::before {
+        content: "Mobile (up to 480px)";
+    }
+
+    #menu-tile, #specials-tile {
+        width: 280px;
+        margin: 0 auto 15px;
+    }
+    /*    Header     */
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 6vw;
+    }
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Menu Categories page */
+.category-title {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.category-title span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 5px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.category-title:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.category-title img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#menu-categories-title + div {
+    margin-bottom: 50px;
+    color: #fff;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* End Menu Categories page */
+
+/* Menu Category item */
+.menu-item-title {
+    margin-bottom: 25px;
+}
+.menu-item-title hr {
+    width: 80%;
+}
+.menu-item-title .menu-item-price {
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-title .menu-item-price span {
+    font-size: .6em;
+}
+
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+.menu-item-photo div {
+    position: absolute;
+    
+    padding: 0;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-description {
+    padding: 30px;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-item-description::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(transparent, #61122f);
+    pointer-events: none;
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+    color: #f6b319;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+    line-height: 1.6;
+    max-height: 120px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+/* End of Menu Category item  */
+
+@media (min-width: 992px) {
+
+    #header-nav .navbar-header,
+    #header-nav .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    #logo-img {
+        width: 80px;
+        height: 80px;
+        margin: 5px 15px 5px 0;
+    }
+
+    .navbar-brand {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+
+    /* Add any other alignment or spacing fixes needed for desktop */
+}
+
+/* Additional responsive improvements */
+@media (max-width: 767px) {
+    .menu-item-tile {
+        margin-bottom: 30px;
+    }
+    
+    .menu-item-photo {
+        margin: 0 auto 15px;
+        max-width: 200px;
+    }
+    
+    .menu-item-description {
+        padding: 15px;
+    }
+    
+    .menu-item-price {
+        text-align: center !important;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-item-tile {
+        margin-bottom: 40px;
+    }
+    
+    .menu-item-photo {
+        margin: 0 auto 20px;
+    }
+}
+
+/* Fix for menu item alignment */
+.menu-item-tile .row {
+    margin: 0;
+}
+
+.menu-item-tile .col-sm-5,
+.menu-item-tile .col-sm-7 {
+    padding: 0 15px;
+}
+
+/* Ensure proper spacing in single category page */
+#main-container {
+    padding: 20px 0;
+}
+
+#menu-categories-title {
+    margin-bottom: 20px;
+    color: #557c3e;
+    font-weight: bold;
+}
+
+#menu-categories-title + div {
+    margin-bottom: 30px;
+    color: #61122f;
+    font-style: italic;
+}
+
+/* About and Awards Page Styles */
+#about-title, #awards-title {
+    color: #557c3e;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px #222;
+}
+
+.about-section, .awards-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.about-section h3, .awards-section h3 {
+    color: #f6b319;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about-section p, .awards-section p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.about-section ul {
+    color: #fff;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.award-item, .certification-item, .review-item, .press-item, .community-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #f6b319;
+    transition: all 0.3s ease;
+}
+
+.award-item:hover, .certification-item:hover, .review-item:hover, .press-item:hover, .community-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.award-item h4, .certification-item h4, .press-item h4, .community-item h4 {
+    color: #f6b319;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.review-item .stars {
+    color: #FFD700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.review-item small {
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Responsive adjustments for About and Awards pages */
+@media (max-width: 767px) {
+    .about-section, .awards-section {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .award-item, .certification-item, .review-item, .press-item, .community-item {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    #about-title, #awards-title {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-section, .awards-section {
+        padding: 20px;
+    }
+    
+    .award-item, .certification-item, .review-item, .press-item, .community-item {
+        padding: 18px;
+    }
+}
+
+/* Responsive improvements for category tiles */
+@media (max-width: 767px) {
+    .category-title {
+        width: 180px;
+        height: 180px;
+        margin: 0 auto 15px;
+    }
+    
+    .category-title span {
+        font-size: 1em;
+        padding: 8px 3px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .category-title {
+        width: 190px;
+        height: 190px;
+        margin: 0 auto 15px;
+    }
+    
+    .category-title span {
+        font-size: 1.1em;
+        padding: 9px 4px;
+    }
+}
+
+@media (min-width: 992px) {
+    .category-title {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 15px;
+    }
+    
+    .category-title span {
+        font-size: 1.2em;
+        padding: 10px 5px;
+    }
+}
+
+/* Ensure grid layout consistency */
+.col-md-3, .col-sm-4, .col-xs-6, .col-xxs-12 {
+    margin-bottom: 20px;
+}
+
+/* Fix for category tile container */
+#main-container .row {
+    margin: 0 -15px;
+}
+
+#main-container .row > div {
+    padding: 0 15px;
+}
+
+/* Responsive improvements for menu items */
+@media (max-width: 767px) {
+    .menu-item-description {
+        padding: 15px;
+        max-height: 150px;
+    }
+    
+    .menu-item-details {
+        max-height: 80px;
+        -webkit-line-clamp: 4;
+    }
+    
+    .menu-item-description::after {
+        height: 20px;
+    }
+    
+    h3.menu-item-title {
+        font-size: 1.2em;
+    }
+    
+    .menu-item-photo {
+        max-width: 200px;
+        margin: 0 auto 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .menu-item-description {
+        padding: 20px;
+        max-height: 180px;
+    }
+    
+    .menu-item-details {
+        max-height: 100px;
+        -webkit-line-clamp: 4;
+    }
+    
+    .menu-item-description::after {
+        height: 25px;
+    }
+    
+    .menu-item-photo {
+        max-width: 220px;
+    }
+}
+
+@media (min-width: 992px) {
+    .menu-item-description {
+        padding: 25px;
+        max-height: 200px;
+    }
+    
+    .menu-item-details {
+        max-height: 120px;
+        -webkit-line-clamp: 5;
+    }
+    
+    .menu-item-description::after {
+        height: 30px;
+    }
+    
+    .menu-item-photo {
+        max-width: 200px;
+    }
+    
+    h3.menu-item-title {
+        font-size: 1.4em;
+    }
+}
+
+/* Ensure consistent menu item heights */
+.menu-item-tile {
+    height: auto;
+    min-height: 350px;
+    display: block;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+}
+
+.menu-item-tile:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-item-tile .row {
+    margin: 0;
+    display: block;
+}
+
+.menu-item-tile .col-sm-5,
+.menu-item-tile .col-sm-7 {
+    padding: 0 10px;
+    display: block;
+}
+
+/* Ensure description doesn't overflow */
+.menu-item-description {
+    padding: 25px;
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-item-description h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.menu-item-description p {
+    margin-bottom: 0;
+}
+
+/* Remove conflicting flexbox properties */
+.menu-item-tile .row {
+    flex: none;
+    display: block;
+}
+
+.menu-item-tile .col-sm-5,
+.menu-item-tile .col-sm-7 {
+    flex: none;
+    display: block;
+}
+
+.menu-item-description {
+    flex: none;
+    display: block;
+}
+
+/* Fix for menu item photo alignment */
+.menu-item-photo {
+    position: relative;
+    border: 2px solid #3f0c1f;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto 15px;
+    max-width: 250px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.menu-item-price {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 10px 0;
+    color: #f6b319;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* Additional text overflow protection for menu items */
+.menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+    line-height: 1.6;
+    max-height: 120px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Ensure proper 3-column layout */
+@media (min-width: 992px) {
+    .menu-item-tile {
+        width: auto;
+        float: none;
+    }
+    
+    .clearfix.visible-md-block.visible-lg-block {
+        clear: both;
+    }
+}
+
+/* Remove conflicting flexbox properties */
+.menu-item-tile .row {
+    flex: none;
+    display: block;
+}
+
+.menu-item-tile .col-sm-5,
+.menu-item-tile .col-sm-7 {
+    flex: none;
+    display: block;
+}
+
+.menu-item-description {
+    flex: none;
+    display: block;
+}
+
+.menu-item-description h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.menu-item-description p {
+    margin-bottom: 0;
+}
